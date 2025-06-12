@@ -1,0 +1,44 @@
+body{
+  background-image: url(https://img1.picmix.com/output/stamp/normal/3/9/1/2/12193_cff7f.gif);
+}
+
+.container{
+  background: #fff0f6;
+  padding: 2rem;
+  border-radius: 20px;
+  width: 400px;
+  margin: 2rem auto;
+  text-align: center;
+  font-family: sans-serif;
+  box-shadow: 0 4px 8px rgb(0, 0, 0.1);
+}
+
+.titulo{
+  font-size: 1.5rem;
+  color: #d63384;
+  margin-bottom: 1rem;
+}
+
+input{
+  font-size: 1rem;
+  border-radius:10px;
+  border: 1px solid #ccc;
+  width: 80%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+button{
+  background-color: #ff4da6;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+p{
+  font-size: 1.2rem;
+  color: #495057;
+}
