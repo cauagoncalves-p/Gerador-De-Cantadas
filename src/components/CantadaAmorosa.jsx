@@ -1,6 +1,7 @@
 import { useState } from 'react'
 
 const cantadaAmorosa = () =>{
+
     const[nome, setNome] = useState("");
     const cantadas = [
         "Você é Wi-Fi? Porque estou sentindo uma conexão!",
@@ -14,7 +15,6 @@ const cantadaAmorosa = () =>{
         "Você é um dicionário? Porque você dá significado à minha vida!",
         "Se eu fosse um pintor, você seria minha obra-prima."
     ];
-
 
     const [frase, setFrase] = useState('👀 Coloque o nome do seu crush');
     const numero = Math.floor(Math.random() * 10);
@@ -30,7 +30,7 @@ const cantadaAmorosa = () =>{
 
     return (
         <div className="container">
-            <h2 className="titulo"> 💕Cantadas amorosas para sua crush </h2>
+            <h2 className="titulo"> 💕Cantadas amorosas para seu crush </h2>
             <input type="text"
              placeholder="Nome do seu crush"
              value={nome}
