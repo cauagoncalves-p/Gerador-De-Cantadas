@@ -24,7 +24,7 @@ const cantadaAmorosa = () =>{
             setFrase ('Preencha o nome do seu crush.')
         }
         else{
-            setFrase(nome + ', ' + cantadas[numero])
+            setFrase(nome + ', ' + cantadas[numero] + ' 💖');
         }
     }   
 
